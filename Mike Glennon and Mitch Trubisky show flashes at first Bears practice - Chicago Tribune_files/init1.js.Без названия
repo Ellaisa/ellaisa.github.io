@@ -1,0 +1,16 @@
+//<script>
+bouncex.state = {"newvid":true,"iol":true,"tn":1505316985,"pvid":1,"rc":false,"mobile":false,"vip":"159.224.220.232","geo":{"country_code":"UA","country_code3":"UKR","country_name":"Ukraine","region":"12","city":"Kiev","postal_code":null,"latitude":50.4333,"longitude":30.5167,"area_code":null,"dma_code":null,"metro_code":null,"continent_code":"EU","zip":null,"country":"UA"}};
+bouncex.cookie = {"v":{"number_of_articles_read":7,"logged_in_paid":false,"ibx_test":false,"ever_logged_in_paid":false,"ever_logged_in":false,"ecap_seen_visit":"false","ecap_submitted_evergreen":false,"ecap_submitted_entertainment":false,"ecap_submitted_opinion":false},"sid":1,"fvt":1505203253,"vid":1505316985177814,"ao":2,"lp":"http%3A%2F%2Fwww.chicagotribune.com%2Fsports%2Ffootball%2Fbears%2Fct-bears-camp-rundown-spt-0728-20170727-story.html","as":0,"vpv":1,"d":"d","r":"www.chicagotribune.com","cvt":1505316985,"gcr":73,"m":0,"did":"8375709629871750106","lvt":1505316985,"campaigns":{"566873":{"lvt":1505203278,"lavid":1,"la":1505203269,"fsa":1505203269,"as":1,"ao":1,"wc":1505203273},"566883":{"lvt":1505207393,"lavid":1,"la":1505207345,"fsa":1505207345,"as":1,"ao":1,"wc":1505207348},"585550":{"lvt":1505305138,"lavid":1}}};
+bouncex.brandStyles = false;
+bouncex.webfonts = false;
+bouncex.campaigns = false;
+bouncex.gbi.stacks = false;
+bouncex.debug = false;
+
+if(bouncex.browser.msie){
+	setTimeout(function(){
+		bouncex.init();
+	}, 0);
+} else {
+	bouncex.init();
+}
